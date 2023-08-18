@@ -1,0 +1,170 @@
+body{
+    overflow: hidden;
+}
+#rectangle>div{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+#rectangle1{
+    background: red;
+}
+#rectangle2{
+    right: 0px;
+    background: green;
+}
+#rectangle3{
+    bottom: 0px;
+    background: orange;
+}
+#rectangle4{
+    bottom: 0px;
+    right: 0px;
+    background: deeppink;
+}
+#square1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#circle1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#circle2{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#square2{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#circle3{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#square3{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#circle4{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#square4{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#circle5{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#square5{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#circle>div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: white;
+    position: absolute;
+}
+#circle6{
+    top: -50px;
+    left: -50px;
+}
+#circle7{
+    top: -50px;
+    left: calc(50% - 50px);
+}
+#circle8{
+    top: -50px;
+    right: -50px;
+}
+#circle10{
+    right: -50px;
+    bottom: -50px;
+}
+#circle11{
+    right: calc(50% - 50px);
+    bottom: -50px;
+}
+#circle12{
+    left: -50px;
+    bottom: -50px;
+}
