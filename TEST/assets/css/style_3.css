@@ -1,0 +1,51 @@
+*{
+    overflow: hidden;
+}
+#header{
+    position: absolute;
+    background-color: mediumspringgreen;
+    height: 60px;
+    width: 100%;
+}
+#footer{
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: #111111;
+}
+#logo{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: crimson;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    left: 10px;
+}
+#menu{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    right: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: #818181;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+#content{
+    position: absolute;
+    top: 60px;
+    background-color: orange;
+    height: calc(100% - 100px) ;
+    width: 100%;
+}
+#side-bar{
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    background-color: #818181;
+}
