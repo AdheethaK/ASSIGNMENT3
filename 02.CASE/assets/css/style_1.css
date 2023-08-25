@@ -1,15 +1,16 @@
 *{
-    overflow: hidden;
-    font-family: "Berlin Sans FB";
+    font-family: Oxygen;
 }
 #header{
+    box-sizing: border-box;
     min-width: 380px;
     min-height: 30px;
     position: absolute;
     font-size: 1vw;
-    background-color: whitesmoke;
+    background-color: white;
     height: 40px;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
 }
 div>li{
     display: inline-block;
@@ -37,19 +38,22 @@ div>li{
     width: 100%;
 }
 #content{
+    box-sizing: border-box;
     font-size: 1vw;
     background-color: purple;
     position: absolute;
     top: 40px;
-    height: 100% ;
+    bottom: 40px;
+    margin: auto;
     width: 100%;
 }
 #side-bar{
-    font-size: 2vw;
+    box-sizing: border-box;
+    font-size: 3vw;
     position: absolute;
     margin-top: 10px;
-    width: 100px;
-    height: 100%;
+    top: 0px;
+    bottom: 0px;
     background-color: transparent;
 }
 #side-bar> a {
@@ -59,45 +63,49 @@ div>li{
     color: #f1f1f1;
     display: block;
 }
-
 .sidenav a:hover {
     color: #f1f1f1;
 }
 #content-body{
+    box-sizing: border-box;
     position: absolute;
     top: 5px;
-    bottom: 5px;
     left: 105px;
+    margin-bottom: 10px;
+
     background-color: whitesmoke;
     height: 100% ;
     width: 88%;
 }
 #content-body>p{
-    overflow: auto;
+    box-sizing: border-box;
     alignment: center;
     margin: 10px;
+    position: absolute;
+    top: 20vw;
 }
 #gif-bar{
+    box-sizing: border-box;
     min-width: 100px;
     position: absolute;
     left: 10px;
     right: 0px;
     top: 10px;
     margin: auto;
+    height: calc(100% / 2);
     display: inline-block;
 }
 #gif-bar>img{
-    min-width: 70px;
+    box-sizing: border-box;
+    display: inline;
+    width: calc(100% / 3);
     border: solid 1px gray;
     margin-right: -10px;
 }
-#content-body>p{
-    position: absolute;
-    top: 170px;
-}
-#footer{
+body>footer{
     position: absolute;
     bottom: 0px;
+
     height: 40px;
     width: 100%;
     background-color: gray;

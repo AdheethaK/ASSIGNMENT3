@@ -1,0 +1,65 @@
+#main{
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 200px;
+    aspect-ratio: 1/1;
+
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+
+    border: solid 10px purple;
+    z-index: 9999;
+}
+#main>div{
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: calc(100% - 5px);
+    aspect-ratio: 1/1;
+
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+
+    border: solid 10px red;
+}
+#set{
+    position: absolute;
+    top: 0px;
+    left: 41%;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+
+    box-sizing: border-box;
+}
+.circle{
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 150px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    background-color:  yellowgreen;
+    text-align: center;
+}
+#circle1{
+    top: 400px;
+}
+#circle2{
+    top: 800px;
+}
+#circle3{
+    top: 1200px;
+}
+#space{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 1800px;
+}
