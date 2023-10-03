@@ -1,3 +1,6 @@
+*{
+    font-family: Oxygen;
+}
 #main{
     box-sizing: border-box;
     border-radius: 100px;
@@ -45,17 +48,35 @@
     width: 150px;
     aspect-ratio: 1/1;
     position: absolute;
-    background-color:  yellowgreen;
+    left: 5.8%;
     text-align: center;
 }
 #circle1{
     top: 400px;
+    background-color: lightblue;
+}
+#circle1>p{
+    position: absolute;
+    top: 30%;
+    left: 30%;
 }
 #circle2{
     top: 800px;
+    background-color: plum;
+}
+#circle2>p{
+    position: absolute;
+    top: 30%;
+    left: 20%;
 }
 #circle3{
     top: 1200px;
+    background-color: lightcoral;
+}
+#circle3>p{
+    position: absolute;
+    top: 20%;
+    left: 20%;
 }
 #space{
     height: 50%;
