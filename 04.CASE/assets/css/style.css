@@ -1,56 +1,45 @@
 *{
     font-family: Oxygen;
+    padding: 0;
+    margin: 0;
 }
-.ch{
+section{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+h3{
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+p{
+    font-size: 100px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.card-heading{
+    background-color: white;
+    height: 10vh;
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 99;
 }
-section>div>span{
-    font-weight: lighter;
-    font-size: 100px;
-}
-section>div:first-child{
-    height: 50px;
-}
-
-section>div:first-child>span{
-    height: fit-content;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    font-weight: bold;
-}
-
-section>div:nth-child(2){
-    height: calc(100vh - 50px);
-}
-
 section:first-child{
-    background-color: crimson;
-}
-section:first-child>div:nth-child(2){
-    background-color: white;
+    background-color: lightpink;
+    top: 0;
 }
 section:nth-child(2){
-    background-color: darkblue;
-    -webkit-text-fill-color: white;
-}
-section:nth-child(2)>div:nth-child(2){
-    background-color: cadetblue;
+    background-color: orangered;
+    top: 100vh;
 }
 section:nth-child(3){
-    background-color: black;
-    -webkit-text-fill-color: white;
+    background-color: cornflowerblue;
+    top: 200vh;
 }
-section:nth-child(3)>div:nth-child(2){
-    background-color: dimgrey;
-}
-section:last-of-type{
-    background-color: red;
-    -webkit-text-fill-color: white;
-}
-section:last-of-type>div:nth-child(2){
-    background-color: orangered;
+section:nth-child(4){
+    background-color: orchid;
+    top: 300vh;
 }
